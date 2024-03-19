@@ -36,11 +36,13 @@ header li a{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    position: relative;
 }
 
 .article article img{
    /* height: 180px;*/
    width: 100%;
+   border-radius: 10px;
 }
 
 .article article{
@@ -100,4 +102,32 @@ section h2{
 
 #economy .article article a{
     background-color: #ff9f1a;
+}
+
+#tec{
+    background-color: rgba(65, 88, 208, 0.5);
+}
+
+#tec article a{
+    background-color: #0693e3;
+}
+
+section .post-category{
+    position:absolute;
+    left: -8px;
+    top: 10px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 25px;
+    padding: 0 14px;
+    background-color: #2cbdbde6;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 800;
+    color: #fff;
+    line-height: 1;
+    text-transform: uppercase;
 }
