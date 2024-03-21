@@ -52,6 +52,7 @@ header li a{
 
 section{
     padding: 16px 0;
+    border-top: 10px solid white;;
 }
 
 section h2,
@@ -90,11 +91,12 @@ section h2{
 }
 
 #sports{
-    background-color: rgba(0, 255, 0, 0.1);
+    background-color: rgba(0, 255, 0, 0.4);
 }
 
 #sports .article article a{
     background-color: #009432;
+    border-radius: 20px;
 }
 
 #economy{
@@ -103,6 +105,7 @@ section h2{
 
 #economy .article article a{
     background-color: #ff9f1a;
+    border-radius: 20px;
 }
 
 #tec{
@@ -111,6 +114,7 @@ section h2{
 
 #tec article a{
     background-color: #0693e3;
+    border-radius: 20px;
 }
 
 section .post-category{
@@ -140,4 +144,33 @@ section .post-category{
 
 #educ article a{
     background-color: #169489;
+    border-radius: 20px;
+}
+
+footer{
+    border: none;
+    text-align: center;
+    background-color: #a7d0ec;
+}
+
+footer .back-top{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    background-color: silver;
+
+}
+
+.cards article{
+    border: 2px solid black;
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
 }
