@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: #4535C1;
+}
+body .container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+body .container .painel-login {
+  margin: 0 auto;
+  max-width: 300px;
+}
+body .container .painel-login h1 {
+  font-size: 3em;
+  text-align: center;
+  color: #ccc;
+}
+body .container .painel-login form {
+  display: flex;
+  flex-direction: column;
+}
+body .container .painel-login form input {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 5px;
+}
+body .container .painel-login form button {
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+}
+body .container .info {
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
